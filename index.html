@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MR_Anonymous</title>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/02321aa29d.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div id="header">
+      <div class="container">
+        <nav>
+          <h1 class="logo"><span id="logo">MR.A</span>NONYMOUS</h1>
+          <ul id="sidemenu">
+            <li><a href="#header">HOME</a></li>
+            <li><a href="#about">ABOUT</a></li>
+            <li><a href="#services">SERVICES</a></li>
+            <li><a href="#portfolio">PORTFOLIO</a></li>
+            <li><a href="#contact">CONTACT</a></li>
+            <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+          </ul>
+          <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+          <p>Frontend Developer</p>
+          <h1>Hi, i'm <span>Anonymous</span><br />from India</h1>
+        </div>
+      </div>
+    </div>
+    <!---------------------------About------------------------------->
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            <img src="images/photo.png" />
+          </div>
+          <div class="about-col-2">
+            <h1 class="sub-title">About Me</h1>
+            <p>
+              Hello everyone! This is Harikumar also known as Anonymous. I'm a
+              student of GMR Institute of Technology. present I'm persuing in
+              2nd year in Computer Science and Engineering. I'm very much
+              intrested in learning new Technologies, watching Movies, listening
+              Music. I want to be a Ethical hacker in future. Web development is
+              one of my hobby.
+            </p>
+            <div id="tabs-container">
+              <div class="tabs-container1">
+                <button class="btn active-tab" onclick="openTab('tab1')">
+                  Skills
+                </button>
+                <button class="btn" onclick="openTab('tab2')">
+                  Experience
+                </button>
+                <button class="btn" onclick="openTab('tab3')">Education</button>
+              </div>
+
+              <div class="tab-content" id="tab1">
+                <ul>
+                  <li><span>Web Development</span><br />Web App Development</li>
+                </ul>
+              </div>
+
+              <div class="tab-content" id="tab2">
+                <ul>
+                  <li>
+                    <span>2022-current</span><br />Web App Development Learning through online Platforms
+                  </li>
+                  <li>
+                    <span>2023</span><br />participated in webathon of GMRIT
+                    Stepcone
+                  </li>
+                  <li>
+                    <span>2023</span><br />Participate in Datathon 3.0 of GMRIT
+                  </li>
+                </ul>
+              </div>
+
+              <div class="tab-content" id="tab3">
+                <ul>
+                  <li>
+                    <span>2019-2020</span><br />SSC in Vivekananda High School,
+                    Palakonda
+                  </li>
+                  <li>
+                    <span>2020-2022</span><br />Intermediate in Sri Chaitanya jr
+                    college, Visakhapatnam
+                  </li>
+                  <li>
+                    <span>2022-current</span><br />Bachelor of Technology in
+                    GMRIT, Rajam
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--------------------------------------------Services------------------------------------->
+    <div id="services">
+      <div class="container">
+        <h1 class="sub-title">Services</h1>
+        <div class="services-list">
+          <div>
+            <i class="fa-solid fa-code"></i>
+            <h2>Web Design</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic rem
+              commodi qui iste iure? Quo mollitia totam provident ipsa, repellat
+              suscipit, incidunt rem enim voluptas exercitationem optio eligendi
+              aspernatur id!
+            </p>
+            <a href="#">Learn more</a>
+          </div>
+          <div>
+            <i class="fa-solid fa-crop-simple"></i>
+            <h2>Skill Development</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic rem
+              commodi qui iste iure? Quo mollitia totam provident ipsa, repellat
+              suscipit, incidunt rem enim voluptas exercitationem optio eligendi
+              aspernatur id!
+            </p>
+            <a href="#">Learn more</a>
+          </div>
+          <div>
+            <i class="fa-regular fa-image"></i>
+            <h2>Photo editing</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic rem
+              commodi qui iste iure? Quo mollitia totam provident ipsa, repellat
+              suscipit, incidunt rem enim voluptas exercitationem optio eligendi
+              aspernatur id!
+            </p>
+            <a href="#">Learn more</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!----------------------------------- Portfolio ------------------------------>
+    <div id="portfolio">
+      <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+          <div class="work">
+            <img src="images/work.jpg" />
+            <div class="layer">
+              <h3>Personal Portfolio</h3>
+              <p>
+                The personal portfolio is my first designed Website. so visit it
+                and review it.
+              </p>
+              <a href=""><i class="fa-solid fa-up-right-from-square"></i></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="images/work.jpg" />
+            <div class="layer">
+              <h3>E-Commerse Website</h3>
+              <p>
+                The E-commerse Website is my Service Website to service Common
+                people. so visit it and review it.
+              </p>
+              <a href=""><i class="fa-solid fa-up-right-from-square"></i></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="images/work.jpg" />
+            <div class="layer">
+              <h3>Tribute page</h3>
+              <p>
+                The Tribute page is my personal Fan based Website. so visit it
+                and review it.
+              </p>
+              <a href=""><i class="fa-solid fa-up-right-from-square"></i></a>
+            </div>
+          </div>
+        </div>
+        <a href="#" class="btn1">See more</a>
+      </div>
+    </div>
+    <!-------------------------------- Contact ------------------------------>
+    <div id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="contact-left">
+            <h1 class="sub-title">Contact Me</h1>
+            <p><i class="fa-solid fa-paper-plane"></i>contact@example.com</p>
+            <p><i class="fa-solid fa-square-phone"></i>0123456789</p>
+            <div class="social-icons">
+              <a href=""><i class="fa-brands fa-facebook"></i></a>
+              <a href=""><i class="fa-brands fa-instagram"></i></a>
+              <a href=""><i class="fa-brands fa-twitter"></i></a>
+              <a href=""><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+            <a href="images/emmet.pdf" download class="btn1 btn2"
+              >Download CV</a
+            >
+          </div>
+          <div class="contact-right">
+            <form name="submit-to-google-sheet">
+              <input type="text" name="Name" placeholder="Your Name" required />
+              <input
+                type="email"
+                name="Email"
+                placeholder="Your mailid"
+                required
+              />
+              <textarea
+                name="Message"
+                rows="10"
+                placeholder="Your Message"
+                required
+              ></textarea>
+              <button type="submit" class="btn1 btn2">Submit</button>
+            </form>
+            <span id="msg"></span>
+          </div>
+        </div>
+      </div>
+      <div class="copyright">
+        <p>
+          Copyright @ Anonymous 2023 ...<i class="fa-brands fa-superpowers"></i>
+        </p>
+      </div>
+    </div>
+    <!-------------- script of About me -------------------->
+    <script>
+      function openTab(tabName) {
+        var i, tabContent, tabs;
+
+        // Hide all tab content
+        tabContent = document.getElementsByClassName("tab-content");
+        for (i = 0; i < tabContent.length; i++) {
+          tabContent[i].style.display = "none";
+        }
+
+        // Remove 'active-tab' class from all tabs
+        tabs = document.getElementsByClassName("tab-content");
+        for (i = 0; i < tabs.length; i++) {
+          tabs[i].classList.remove("active-tab");
+        }
+
+        // Show the selected tab content and set it as active
+        document.getElementById(tabName).style.display = "block";
+        document.getElementById(tabName).classList.add("active-tab");
+      }
+    </script>
+    <!----------------- Script of Small Screen Menu ----------------->
+    <script>
+      var sidemenu = document.getElementById("sidemenu");
+      function openmenu() {
+        sidemenu.style.right = "0";
+      }
+      function closemenu() {
+        sidemenu.style.right = "-200px";
+      }
+    </script>
+    <!----------------- Script for Sent message ---------------->
+    <script>
+      const scriptURL =
+        "https://script.google.com/macros/s/AKfycbxRUUC5tiy6agdURL0CE7wBY2QQYhVc7BA6eJQlfM7R0mZP50a60_lhwKdoXqweatzb/exec";
+      const form = document.forms["submit-to-google-sheet"];
+      const msg = document.getElementById("msg");
+
+      form.addEventListener("submit", (e) => {
+        e.preventDefault();
+        fetch(scriptURL, { method: "POST", body: new FormData(form) })
+          .then((response) => {
+            msg.innerHTML = "Message sent Successively";
+            setTimeout(function () {
+              msg.innerHTML = "";
+            }, 2000);
+            form.reset();
+          })
+          .catch((error) => console.error("Error!", error.message));
+      });
+    </script>
+  </body>
+</html>
